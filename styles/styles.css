@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+/* - INITIALIZE - */
+html, body
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/* - BACKGROUND - */
+body
+{
+	background-image: url(../assets/background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* - TEXT DEFAULTS- */
+body
+{
+	color: white;
+	font-weight: 100;
+	font-family: "VT323", monospace;
+}
+
+
+/* - CONTENT- */
+
+header
+{
+	text-align: center;
+}
+
+h1
+{
+	font-size: 3em;
+	margin-bottom: .5em;
+	font-weight: 100;
+}
+
+h2
+{
+	font-weight: 100;
+}
+
+main
+{
+	background-color: rgba(32, 32, 32, .5);
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 20px 0;
+}
+
+footer
+{
+	background-color: rgba(32, 32, 32, .5);
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 2.5%;
+}
+
+/* - FORM - */
+
+form
+{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+input, select
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
